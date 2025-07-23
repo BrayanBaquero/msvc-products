@@ -4,4 +4,4 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
-rootProject.name = 'msvc.products'
+rootProject.name = 'msvc-products'
