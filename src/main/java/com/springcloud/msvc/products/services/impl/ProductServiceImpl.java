@@ -1,7 +1,7 @@
 package com.springcloud.msvc.products.services.impl;
 
 import com.springcloud.msvc.products.entities.Product;
-import com.springcloud.msvc.products.repositories.ProductRpository;
+import com.springcloud.msvc.products.repositories.ProductRepository;
 import com.springcloud.msvc.products.services.ProductService;
 import lombok.AllArgsConstructor;
 import org.springframework.core.env.Environment;
@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 public class ProductServiceImpl implements ProductService {
 
 
-    final private ProductRpository productRpository;
+    final private ProductRepository productRpository;
     final private Environment environment;
 
     @Override
