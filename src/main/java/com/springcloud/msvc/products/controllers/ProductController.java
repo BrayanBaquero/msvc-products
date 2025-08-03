@@ -34,7 +34,7 @@ public class ProductController {
             throw new IllegalStateException("Producto no encontrado");
         }
         if (id.equals(7L)){
-            TimeUnit.SECONDS.sleep(2L);
+            TimeUnit.SECONDS.sleep(3L);
            // throw new IllegalStateException("Producto no encontrado");
         }
 
